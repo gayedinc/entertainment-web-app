@@ -245,6 +245,7 @@ nav {
     width: 32px;
     height: 32px;
     z-index: 999;
+    cursor: pointer;
   }
 }
 
@@ -412,7 +413,7 @@ nav {
     padding-top: 40px;
     padding-bottom: 32px;
   }
-  
+
   .recommended-container, 
   .filtered-data,
   .movies, 
