@@ -1,6 +1,10 @@
-# 🎞️ Entertainmnent Web App Porjesi
+# 🎞️ Entertainment Web App Projesi
 
 Bu proje kullanıcıların film ve dizileri keşfedebileceği, arayabileceği ve kaydedilenlerine ekleyebileceği kapsamlı bir film platformu. Mobil odaklı ve modüler yapıya sahip olan projede kullanıcı deneyimini ön planda tutarak birçok teknik detayı bir araya getirdim.
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
+
 
 📂 Proje Detayları:
 
