@@ -14,6 +14,9 @@
 **Entertainment Web App**, kullanıcıların film ve dizileri keşfedebileceği, arayabileceği ve favorilerine ekleyebileceği modern bir web uygulamasıdır. Mobil öncelikli (mobile-first) tasarım prensibiyle geliştirilen uygulama kullanıcı deneyimini ön planda tutacak şekilde sade ve sezgisel olarak tasarlanmıştır.
 
 Bu proje kullanıcıların film ve dizileri keşfedebileceği, arayabileceği ve kaydedilenlerine ekleyebileceği kapsamlı bir film platformu. Mobil odaklı ve modüler yapıya sahip olan projede kullanıcı deneyimini ön planda tutarak birçok teknik detayı bir araya getirdim.
+
+---
+
 ![image](https://github.com/user-attachments/assets/5fb8ae68-cabf-478f-b40d-de570896aff6)
 
 📂 Proje Detayları:
