@@ -62,6 +62,12 @@ Bookmarked: Kullanıcının favorilerine eklediği yapımları saklar ve listele
 > 🔹 *Local State (`useState`):*  
 > Arama kutusu gibi yalnızca belirli bileşenlere özel verileri `useState` ile yönettim. Böylece bileşenler kendi içinde bağımsız çalışabilir hale geldi.
 
+## 🌐 Canlı Demo
+
+Uygulamayı canlı olarak aşağıdaki link üzerinden görüntüleyebilirsiniz:
+
+🔗 [https://entertainment-web-app-liart.vercel.app](https://entertainment-web-app-liart.vercel.app)
+
 ## 🗂️ Proje Yapısı
 
 ```bash
