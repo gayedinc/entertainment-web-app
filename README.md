@@ -2,8 +2,6 @@
 
 > Film ve dizileri keşfet, ara, favorilerine ekle. Mobil uyumlu ve kullanıcı odaklı bir eğlence platformu.
 
----
-
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
@@ -13,11 +11,10 @@
 
 ## 🔍 Proje Özeti
 
-**Entertainment Web App**, kullanıcıların film ve dizileri keşfedebileceği, arayabileceği ve favorilerine ekleyebileceği modern bir web uygulamasıdır. Mobil öncelikli (mobile-first) tasarım prensibiyle geliştirilen uygulama, kullanıcı deneyimini ön planda tutacak şekilde sade ve sezgisel olarak tasarlanmıştır.
-
----
+**Entertainment Web App**, kullanıcıların film ve dizileri keşfedebileceği, arayabileceği ve favorilerine ekleyebileceği modern bir web uygulamasıdır. Mobil öncelikli (mobile-first) tasarım prensibiyle geliştirilen uygulama kullanıcı deneyimini ön planda tutacak şekilde sade ve sezgisel olarak tasarlanmıştır.
 
 Bu proje kullanıcıların film ve dizileri keşfedebileceği, arayabileceği ve kaydedilenlerine ekleyebileceği kapsamlı bir film platformu. Mobil odaklı ve modüler yapıya sahip olan projede kullanıcı deneyimini ön planda tutarak birçok teknik detayı bir araya getirdim.
+![image](https://github.com/user-attachments/assets/5fb8ae68-cabf-478f-b40d-de570896aff6)
 
 📂 Proje Detayları:
 
