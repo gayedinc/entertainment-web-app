@@ -2,6 +2,7 @@ import { DataContext, BookMarkedMovies } from "../App";
 import { useContext, useState } from "react";
 import { DotSvg } from "../Svg";
 import Recommended from "./Recommended";
+import { toast } from 'react-hot-toast';
 
 export default function HomePage() {
   const [searchText, setSearchText] = useState("");
@@ -32,12 +33,15 @@ function Trending() {
   return (
     <>
       <h2 className="page-title">Trending</h2>
-      <div className="trending">
-        {data?.filter(item => item.trending)
-          .map((item, i) => (
-            <TrendCard key={i} {...item} />
-          ))}
+      <div className="slider-container">
+        <div className="slider-track">
+          {data?.filter(item => item.trending)
+            .map((item, i) => (
+              <TrendCard key={i} {...item} />
+            ))}
+        </div>
       </div>
+
       <div className="recommended">
         <h2>Recommended for you</h2>
         <div className="recommended-container">
@@ -57,8 +61,16 @@ function TrendCard({ trailer, image, release_date, type, age_rating, title }) {
   function handleBookmarks() {
     if (bookmarks.includes(title)) {
       setBookmarks(bookmarks.filter(item => item !== title));
+      toast.success("Removed from Bookmarked list.");
     } else {
       setBookmarks([...bookmarks, title]);
+
+      // type değeri movie ya da series ise
+      const message = type === "series"
+        ? `"${title}" added to your Bookmarked Series list.`
+        : `"${title}" added to your Bookmarked Movies list."`;
+
+      toast.success(message);
     }
   }
 

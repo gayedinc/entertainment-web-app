@@ -49,6 +49,7 @@ nav {
 
 .search-input {
   margin-bottom: 24px;
+  border-bottom: 1px solid transparent;
 
   &:focus-within {
     border-bottom: 1px solid #5A698F;
@@ -68,7 +69,6 @@ nav {
     color: #fff;
     width: 257px;
     padding-left: 52px;
-    border-bottom: 1px solid transparent;
     caret-color: #FC4747;
   }
 }
@@ -89,12 +89,27 @@ nav {
   padding-bottom: 16px;
 }
 
-.trending {
-  display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
-  gap: 16px;
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
+
+.slider-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 .trend-container {
   position: relative;
@@ -106,7 +121,7 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
   min-width: 240px;
-  height: 140px;
+  height: 300px;
   cursor: pointer;
 
   &:hover {
@@ -177,7 +192,6 @@ nav {
 
 .reco-card  {
   position: relative;
-  height: 154px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
@@ -291,8 +305,8 @@ nav {
   }
 
   .trend-card {
-    min-width: 470px;
-    height: 230px;
+    min-width: 430px;
+    height: 400px;
   }
 
   .card-info {
@@ -323,7 +337,6 @@ nav {
   }
 
   .reco-card  {
-    height: 280px;
   
     img {
       height: 82%;
@@ -440,5 +453,10 @@ nav {
 
   .avatar-img {
     margin-top: auto;
+  }
+
+  .trend-card {
+    min-width: 470px;
+    height: 620px;
   }
 }

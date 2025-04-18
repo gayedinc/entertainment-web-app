@@ -1,6 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import Header from "./components/Header";
 import { getPage } from "./helper";
+import { Toaster } from 'react-hot-toast';
 
 export const PageContext = createContext(null);
 export const DataContext = createContext(null);
@@ -38,6 +39,7 @@ function App() {
 
   return (
     <PageContext.Provider value={page}>
+      <Toaster position="top-center" reverseOrder={false} />
       <DataContext.Provider value={data}>
         <Header activeLink={activeLink} />
         <BookMarkedMovies.Provider value={{ bookmarks, setBookmarks }}>

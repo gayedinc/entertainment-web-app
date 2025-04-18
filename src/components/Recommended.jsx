@@ -1,6 +1,7 @@
 import { DotSvg, MovieSvg, TvSeriesSvg } from "../Svg";
 import { useContext } from "react";
 import { BookMarkedMovies } from "../App";
+import { toast } from 'react-hot-toast';
 
 export default function Recommended({ trailer, image, release_date, type, age_rating, title }) {
 
@@ -9,8 +10,16 @@ export default function Recommended({ trailer, image, release_date, type, age_ra
   function handleBookmarks() {
     if (bookmarks.includes(title)) {
       setBookmarks(bookmarks.filter(item => item !== title));
+      toast.success("Removed from Bookmarked list.");
     } else {
       setBookmarks([...bookmarks, title]);
+
+      // type değeri movie ya da series ise
+      const message = type === "series"
+        ? `"${title}" added to your Bookmarked Series list.`
+        : `"${title}" added to your Bookmarked Movies list.`;
+
+      toast.success(message);
     }
   }
 
