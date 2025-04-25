@@ -69,6 +69,49 @@ You can view the live application via the following link:
 
 [https://entertainment-web-app-liart.vercel.app](https://entertainment-web-app-liart.vercel.app)
 
+## Installation & Running Locally
+
+To run this project on your local machine, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/entertainment-web-app.git
+```
+
+If you don’t have Git installed, you can download it from [https://git-scm.com](https://git-scm.com).
+
+### 2. Navigate into the Project Directory
+
+```bash
+cd entertainment-web-app
+```
+
+### 3. Install Dependencies
+
+If you don’t have Node.js and npm (or yarn) installed, you can download them from [https://nodejs.org](https://nodejs.org).
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The app will typically run at [http://localhost:5173](http://localhost:5173).
+
+### 5. Open in Browser
+
+Open the URL in your browser to start using the application.
+
+
 ##  Project Structure
 
 ```bash
