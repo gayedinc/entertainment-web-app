@@ -76,7 +76,7 @@ To run this project on your local machine, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/entertainment-web-app.git
+git clone https://github.com/gayedinc/entertainment-web-app.git
 ```
 
 If you don’t have Git installed, you can download it from [https://git-scm.com](https://git-scm.com).
